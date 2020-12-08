@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="about.css" />
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <title>Boys and Girls Club of Northern Utah</title>
+</head>
+
+<body>
+  <h1 id="sitename">Boys and Girls Club of Northern Utah</h1>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="involved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Page Content -->
+  <div id="text">
+  <h2>Who We Are</h2>
+  <p>The Boys & Girls Club of Northern Utah (BGCNU) serves Box Elder & Cache counties. Programs are provided for students in grades kindergarten through 12th and their families. The Club coordinates and collaborates with schools, cities, counties, volunteer groups and other non-profit organizations to better the communities we serve.</p>
+  <p>BGCNU serves 1250 school age youth annually with best practice programs and proven curriculum. With an average daily attendance of 400, the Club provides at least 70 activities every day. BGCNU serves 9000 plus family members and community members through targeted events and activities.</p>
+  <p>The Boys & Girls Club of Northern Utah's purpose is to produce quality outcomes with the youth that we serve. The Formula for Impact is a proven strategy implemented at every Club Site.</p>
+  <img src="images/FORMULA-FOR-IMPACT_3_24_2011.jpg" alt="Formula For Impact"/>
+  <p>In addition to proven programs and best practices the Club has developed hundreds of curricula. The Club provides daily academic support and healthy living. Programs in the Arts, Recreation, Sports, STEM (Science, Technology, Engineering, and Math), Character and Community are consistent at Club sites along with opportunities for tutoring and mentoring.</p>
+  <embed src="images/annualreport.pdf"></embed>
+</div>
+  <!-- End of Content -->
+  <footer>
+    <p>Copyright&#169; 2020 Christian McClellan</p>
+    <p>View my <a href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Coureur1">Github Repostitory</a></p>
+  </footer>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
+</body>
+</html>

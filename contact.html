@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="contact.css" />
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <title>Boys and Girls Club of Northern Utah</title>
+</head>
+
+<body>
+  <h1 id="sitename">Boys and Girls Club of Northern Utah</h1>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="involved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Page Content -->
+  <h2 style="text-align:center">Our Locations</h2>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="images/utah.jpg" alt="Boys & Girls Club of Northern Utah
+        Main Office" style="width:100%">
+        <div class="container">
+          <h2>Utah Main Office</h2>
+            <p class="title"></p>
+            <p>550 South Main Street</p>
+            <p>Brigham City, UT 84302</p>
+            <p>435-723-6224</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="images/bearriver.jpg" alt="Bear River Office" style="width:100%">
+          <div class="container">
+            <h2>Bear River Office</h2>
+            <p class="title"></p>
+            <p>1386 South Main Street</p>
+            <p>Garland, UT 84312</p>
+            <p>435-538-1270</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="images/loganutah.jpg" alt="Logan Office" style="width:100%">
+          <div class="container">
+            <h2>Logan Office</h2>
+            <p class="title"></p>
+            <p>106 North Main Street</p>
+            <p>Logan, UT 84321</p>
+            <p>435-512-4171</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="bottom">
+    <p>Or contact us directly at</p>
+    <br>
+    <p><b>Executive Director/CEO</b></p>
+    <p>Jeune Elle Jeffries</p>
+    <p>jjeffries@bcbrclub.org</p>
+    <p>435-723-6224 extension 3</p>
+    <br>
+    <p><b>Chief of Operations & Community Programming</b></p>
+    <p>Jenny Schulze</p>
+    <p>jschulze@bcbrclub.org</p>
+    <p>435-723-6224 extension 2</p>
+  </div>
+    <!-- End of Content -->
+    <footer>
+      <p>Copyright&#169; 2020 Christian McClellan</p>
+      <p>View my <a href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Coureur1">Github Repostitory</a></p>
+    </footer>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>

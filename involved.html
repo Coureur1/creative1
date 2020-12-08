@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="involved.css" />
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <title>Boys and Girls Club of Northern Utah</title>
+</head>
+
+<body>
+  <h1 id="sitename">Boys and Girls Club of Northern Utah</h1>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="involved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Page Content -->
+  <h2>Fundraising and Sponsorship Opportunities</h2>
+  <table>
+    <tr>
+      <th><p>STEM Careers & Eduction Fair<br>Title Sponsor<br>$5000<br>Other Levels Available</p><br></th>
+      <th><p>Program Sponsors<br>(Arts, STEM, Healthy Lifestyles, Academics)<br>$2000</p><br></th>
+      <th><p>Program Sponsors<br>$1500</p></th>
+    </tr>
+    <tr>
+      <th><p>Dinner & Auction Hero Sponsor<br>$1000<br><span style="font-weight:bold;">Table Sponsor</span><br>$500</p><br></th>
+      <th><p>Summer Camp Sponsor<br>$750</p><br></th>
+      <th><p>"Club Kid" Sponsor<br>$20/month</p><br></th>
+    </tr>
+  </table>
+  <nav>
+    <ul>
+      <li><a>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+          <input type="hidden" name="cmd" value="_s-xclick" />
+          <input type="hidden" name="hosted_button_id" value="XQZWRKHEXHAC8" />
+          <input type="image" src="images/donatebutton1.png" name="submit"  />
+          <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+      </a></li>
+      <li><a href="files/MembershipApplication.pdf" target="_blank"><img src="images/membership.png"></a></li>
+      <li><a href="files/Volunteer Application.pdf" target="_blank"><img src="images/volunteerbutton1.png"></a></li>
+    </ul>
+  </nav>
+  <!-- End of Content -->
+  <footer>
+    <p>Copyright&#169; 2020 Christian McClellan</p>
+    <p>View my <a href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Coureur1">Github Repostitory</a></p>
+  </footer>
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+</body>
+</html>

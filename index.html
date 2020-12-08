@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+  <title>Boys and Girls Club of Northern Utah</title>
+</head>
+
+<body>
+  <h1 id="sitename">Boys and Girls Club of Northern Utah</h1>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="involved.html">Get Involved</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About Us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+  <!-- Page Content -->
+  <img id="welcome" src="images/logo.png" alt="welcome"/>
+
+  <div id="text">
+    <p> <b>Whatever It Takes to Build Great Futures</b><br><br>
+There is no silver bullet to success. It takes an army of people, a safe environment, high-quality programs and unique experiences to level the playing field for all kids. Boys & Girls Clubs don't just do one thing, we do whatever it takes to build great futures for America's young people.</p>
+    <br>
+    <img src="images/AcademicSuccess_Advocacy_Advisor.jpg" />
+    <p><b>97%</b> of Club teens expect to graduate from high school and 80% had submitted an application to a post-secondary education.</p>
+    <p><b>75%</b> of regularly attending members said they volunteered in their community, Club, school or neighborhood at least once in the past year.</p>
+    <p><b>89%</b> of Club youth said they can stand up for what is right; 91% of Club youth reported that as a leader, they make sure everyone feels important.</p>
+  </div>
+
+  <!-- End of Content -->
+  <footer>
+    <p>Copyright&#169; 2020 Christian McClellan</p>
+    <p>View my <a href="https://github.com/BYU-CS-260-Winter-2020/lab-1-photography-website-Coureur1">Github Repostitory</a></p>
+  </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
+</html>
